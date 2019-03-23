@@ -996,6 +996,4 @@ class FieldShow(Lister):
                             interface = "%s:%s" % (node_name, intf_name)
                             values.append((interface, obj.value))
 
-        # TODO - check that at least one is returned, otherwise indicate invalid field
-
         return (("Node:Interface", parsed_args.field), values)
