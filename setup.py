@@ -36,7 +36,6 @@ setup(
     scripts=[],
 
     provides=[],
-#    install_requires=['tripleo-common'],
 
     namespace_packages=[],
     packages=find_packages(),
